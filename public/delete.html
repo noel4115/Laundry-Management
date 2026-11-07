@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Delete Records</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="/style.css">
+</head>
+<body>
+
+<h1>Delete Records</h1>
+
+<div class="container">
+    <select id="table">
+        <option value="customers">Customers</option>
+        <option value="services">Services</option>
+        <option value="orders">Orders</option>
+        <option value="payments">Payments</option>
+    </select>
+
+    <input type="number" id="recordId" placeholder="Enter ID">
+
+    <button onclick="deleteRecord()">Delete Record</button>
+
+    <p id="message"></p>
+    <a href="index.html">Home</a>
+</div>
+
+<script src="/script.js"></script>
+</body>
+</html>
